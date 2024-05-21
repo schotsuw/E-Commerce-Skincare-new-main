@@ -10,11 +10,7 @@ const { type } = require("os");
 const { error } = require("console");
 
 app.use(express.json()); // parse all the request through json
-app.use(cors({
-    origin:["https://deploy-mern-1whq.vercel.app"],
-    methods:["POST","GET"],
-    credentials:true
-})); // connect express app in 4000 port
+app.use(cors()); // connect express app in 4000 port
 
 // Database Connection with MongoDB
 mongoose.connect("mongodb+srv://schotsuw:Ohm22052546@cluster0.0vqkpxy.mongodb.net/e-commmerce");
