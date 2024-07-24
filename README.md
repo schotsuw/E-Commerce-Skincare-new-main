@@ -1,6 +1,6 @@
 # E-Commerce-Skincare: The basic E-commerce Website applying MERN stack
 Both of them will take some time to download all the product images, information, and prices. 
-It might be because it is trying to pull the stored database from my MongoDB (backend) and then fetch the APIs to my main and product pages (frontend). 
+It might be because it is trying to pull the stored database from my MongoDB and then fetch the APIs to my main and product pages. 
 
 Here is the link for the Skincare Shop:
 
